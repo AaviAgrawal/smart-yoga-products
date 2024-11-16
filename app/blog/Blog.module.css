@@ -1,0 +1,45 @@
+/* app/blog/Blog.module.css */
+.blogPage {
+    padding: 2rem;
+    color: #333; /* Adjust to match the color theme */
+  }
+  
+  .articleList {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .articleItem {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Adjust for theme */
+  }
+  
+  .articleImage {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+  }
+  
+  .articleContent {
+    flex: 1;
+  }
+  
+  .readMoreButton {
+    padding: 0.5rem 1rem;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .readMoreButton:hover {
+    background-color: #005bb5; /* Darker shade for hover */
+  }
+  

@@ -1,0 +1,53 @@
+/* styles/Home.module.css */
+.main {
+    /* padding: 20px; */
+  }
+  
+  .hero {
+    position: relative;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .heroImage {
+    filter: brightness(0.6);
+  }
+  
+  .heroContent {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .shopNowButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .benefits {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .benefitItems {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    gap: 20px;
+  }
+  
+  .benefitItem {
+    width: 20%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+  }
+  
